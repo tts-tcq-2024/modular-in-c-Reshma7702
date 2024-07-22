@@ -1,5 +1,5 @@
-#ifndef COLOR_H
-#define COLOR_H
+#ifndef COLOR_CONVERSION_H
+#define COLOR_CONVERSION_H
 
 #include <stdio.h>
 
@@ -18,7 +18,9 @@ typedef struct {
 } ColorPair;
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer);
+
 ColorPair GetColorFromPairNumber(int pairNumber);
+
 int GetPairNumberFromColor(const ColorPair* colorPair);
 
 #endif
