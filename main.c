@@ -7,5 +7,8 @@ int main() {
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
 
+    // Print the color coding manual
+    PrintColorCodingManual();
+
     return 0;
 }
