@@ -1,4 +1,4 @@
-#include "color_conversion.h"
+#include "color_pair.h"
 
 const char* MajorColorNames[] = {
     "White", "Red", "Black", "Yellow", "Violet"
